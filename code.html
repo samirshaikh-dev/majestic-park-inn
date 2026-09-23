@@ -108,7 +108,7 @@
 </form>
 </div>
 <!-- Booking Confirmation Toast Mock -->
-<div class="hidden mt-3 bg-secondary text-inverse-on-surface p-4 rounded-xl shadow-xl flex items-center justify-between border-l-4 border-tertiary-fixed transition-all duration-500 ease-out transform" id="booking-toast">
+<div class="hidden mt-3 bg-secondary text-inverse-on-surface p-4 rounded-2xl shadow-xl flex items-center justify-between border-l-4 border-tertiary-fixed transition-all duration-500 ease-out transform" id="booking-toast">
 <div class="flex items-center gap-3">
 <span class="material-symbols-outlined text-tertiary-fixed text-[22px]">verified</span>
 <span class="font-body-sm text-body-sm" id="booking-toast-message">4 suites available for selected dates. Applying direct booking courtesy privileges.</span>
@@ -137,15 +137,15 @@
           Every corner celebrates contemporary Indian craftsmanship: cane joinery crafted by master carpenters, bespoke textured ceramics, and custom lighting designed to cast a soft, restorative evening glow.
         </p>
 <div class="pt-4 grid grid-cols-3 gap-4">
-<div class="bg-surface-container p-4">
+<div class="bg-surface-container p-4 rounded-xl">
 <span class="font-headline-sm text-headline-sm text-primary block leading-none">28</span>
 <span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary mt-1 block">Curated Suites</span>
 </div>
-<div class="bg-surface-container p-4">
+<div class="bg-surface-container p-4 rounded-xl">
 <span class="font-headline-sm text-headline-sm text-primary block leading-none">02</span>
 <span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary mt-1 block">Artisan Salons</span>
 </div>
-<div class="bg-surface-container p-4">
+<div class="bg-surface-container p-4 rounded-xl">
 <span class="font-headline-sm text-headline-sm text-primary block leading-none">100%</span>
 <span class="font-label-caps text-label-caps uppercase tracking-wider text-secondary mt-1 block">Quiet Living</span>
 </div>
@@ -175,7 +175,7 @@
 </div>
 </div>
 <!-- Decorative Floating Accent Box -->
-<div class="hidden sm:block absolute -bottom-6 -left-6 bg-secondary text-inverse-on-surface p-6 shadow-xl max-w-xs">
+<div class="hidden sm:block absolute -bottom-6 -left-6 bg-secondary text-inverse-on-surface p-6 shadow-xl max-w-xs rounded-xl">
 <p class="font-title-editorial text-title-editorial italic text-primary-fixed-dim">
             “A residence of silence, unhurried mornings, and soft evening shadows.”
           </p>
@@ -197,10 +197,10 @@
           </p>
 </div>
 <div class="flex items-center gap-3">
-<button aria-label="Previous suite" class="w-12 h-12 bg-surface hover:bg-surface-container-high text-on-surface flex items-center justify-center transition-all duration-300 hover:scale-105 active:scale-95 border border-outline-variant/40 hover:border-primary shadow-sm" onclick="navigateSuite(-1)">
+<button aria-label="Previous suite" class="w-12 h-12 rounded-full bg-surface hover:bg-surface-container-high text-on-surface flex items-center justify-center transition-all duration-300 hover:scale-105 active:scale-95 border border-outline-variant/40 hover:border-primary shadow-sm" onclick="navigateSuite(-1)">
 <span class="material-symbols-outlined text-[20px]">west</span>
 </button>
-<button aria-label="Next suite" class="w-12 h-12 bg-surface hover:bg-surface-container-high text-on-surface flex items-center justify-center transition-all duration-300 hover:scale-105 active:scale-95 border border-outline-variant/40 hover:border-primary shadow-sm" onclick="navigateSuite(1)">
+<button aria-label="Next suite" class="w-12 h-12 rounded-full bg-surface hover:bg-surface-container-high text-on-surface flex items-center justify-center transition-all duration-300 hover:scale-105 active:scale-95 border border-outline-variant/40 hover:border-primary shadow-sm" onclick="navigateSuite(1)">
 <span class="material-symbols-outlined text-[20px]">east</span>
 </button>
 </div>
@@ -209,7 +209,7 @@
 <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter lg:gap-space-lg items-center bg-surface-container-lowest p-6 md:p-10 shadow-sm transition-all duration-500 hover:shadow-md" id="suite-card-1">
 <div class="lg:col-span-7 overflow-hidden aspect-[16/10] relative group">
 <img alt="The Premier Studio Suite with illuminated walnut headboard and linen bed" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAUu0Lzlee53_i6qk96YVqMbW8Ut0BJxjbc2WXq5hIaajanMXeF5M0qthEaLUXXTzw0PbKliwnzOcg5w-5Xnw-0z73Vy3JM-faURjlqNKnK3jRJ0-wR4Bo17ooo0pIs4DQj9h7UirybXuQY8lPcmBeZrbCI0JDjqg2qOAdU27x99PeJ8Pyd6_wimJ6yQg1947QOAhjBIbJTTc9VxT0dGqqb-_MGs0vHPxnrIBJhe78_km1ontRIihqzA"/>
-<div class="absolute top-4 left-4 bg-surface/90 backdrop-blur-md px-3 py-1 font-label-caps text-label-caps uppercase tracking-widest text-on-surface">
+<div class="absolute top-4 left-4 bg-surface/90 backdrop-blur-md px-3 py-1 font-label-caps text-label-caps uppercase tracking-widest text-on-surface rounded-lg">
             Studio Collection • 54 sq.m
           </div>
 </div>
@@ -292,7 +292,7 @@
 </div>
 <div class="lg:col-span-7 overflow-hidden aspect-[16/10] relative group order-1 lg:order-2">
 <img alt="The Executive Living Suite featuring cane console and woven textures" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUScbx3IDVgpPlSuAHTgq-u2LQUpiQsyg35BmBYoHIAm15pAQ6kYkEaD3DymngDOF5I2AERP6LhLWD1mWTihlxZjwS3LaEJZfNZe-kxuJS0Haz8n4q9u0opEIyf2e0z3p2rhqHvvNmFWAlABsU1dvgoRnpl0JulHJHd4NnCE2pDC-UT6TnL5WttpPg3UsMdj-poXfZZj5FVxDY1O6FDWwQAhVkUBRyklmml_oK2I7VFWFIDahUQm0bNQ"/>
-<div class="absolute top-4 left-4 bg-surface/90 backdrop-blur-md px-3 py-1 font-label-caps text-label-caps uppercase tracking-widest text-on-surface">
+<div class="absolute top-4 left-4 bg-surface/90 backdrop-blur-md px-3 py-1 font-label-caps text-label-caps uppercase tracking-widest text-on-surface rounded-lg">
             Residence Collection • 82 sq.m
           </div>
 </div>
@@ -327,7 +327,7 @@
 <div class="lg:col-span-7 bg-[#2E241F] p-4 flex flex-col justify-between">
 <div class="overflow-hidden aspect-[16/10] relative group">
 <img alt="Majestic Park Inn Grand Dining Room with geometric monochrome marble floor and glowing amber glass pendants" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXHgKhxzDFxMr2cWCK56tje-WaR3ylkKFMbu6J10EBcpFgfV9TpEyTFGCqP0NYDrWRWM7gXRpAvBi4UacsPFb3QyQubaDINs77Mgd4vajTXsfdl4ccL6zrvjxsrn1TJHQ9BACzZhrhj6nMhX3QpT2PqyvzYfocitay9duLa8bdiQrr6eIOTz_6Ufmc9nirgipb6i817CvUsXTrYH14TN22bAGw7uf0fEaO59zpeHXM_W4Wd7_YDrJj5g"/>
-<div class="absolute bottom-4 left-4 bg-black/80 backdrop-blur-md px-4 py-2">
+<div class="absolute bottom-4 left-4 bg-black/80 backdrop-blur-md px-4 py-2 rounded-lg">
 <span class="font-label-caps text-label-caps uppercase tracking-widest text-primary-fixed block">The Main Salon</span>
 <span class="font-body-sm text-body-sm text-surface-dim/90">Geometric Marble • Amber Glass Pendants</span>
 </div>
@@ -348,7 +348,7 @@
 <div class="lg:col-span-5 bg-[#2E241F] p-4 flex flex-col justify-between">
 <div class="overflow-hidden aspect-[4/3] lg:aspect-[4/3] relative group">
 <img alt="An intimate sensory dining table in dark walnut with wine and culinary plate" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6NlXMc88WiCM3eZ04kBUjG5G4lYde4i-R5er5l06v2cvoT9La0RwoQLMcrAUT0Y1uSANd7mNZrFFltj63zIR7JNBFcPip4gI-oI1RJDg__aIVPAkQHsXYkZEt2rsRVi3Uw8m42ASHPoqY1FjfEirbUccmpv3AVsNJq-YOzubXcZR8p06AvM8wh50g1H2iyGKpBx6aY-d0-WMVfmIfy7P9ney7g3C3PXU0B23k5EDqH92ybgqlkaWKXg"/>
-<div class="absolute top-4 right-4 bg-primary-container px-3 py-1 font-label-caps text-label-caps uppercase tracking-widest text-on-primary">
+<div class="absolute top-4 right-4 bg-primary-container px-3 py-1 font-label-caps text-label-caps uppercase tracking-widest text-on-primary rounded-lg">
               Private Alcoves
             </div>
 </div>
@@ -393,7 +393,7 @@
 </section>
 <!-- TABLE RESERVATION MODAL (INTERACTIVE) -->
 <div class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 transition-all duration-300" id="table-modal">
-<div class="bg-surface max-w-lg w-full p-8 shadow-2xl relative border border-outline-variant/30 transition-transform transform scale-100">
+<div class="bg-surface max-w-lg w-full p-8 shadow-2xl relative border border-outline-variant/30 transition-transform transform scale-100 rounded-2xl">
 <button class="absolute top-4 right-4 text-on-surface-variant hover:text-primary transition-transform hover:rotate-90 duration-200" onclick="closeTableModal()">
 <span class="material-symbols-outlined">close</span>
 </button>
@@ -403,16 +403,16 @@
 <form class="space-y-4" id="table-request-form" onsubmit="handleTableSubmit(event)">
 <div>
 <label class="block font-label-caps text-label-caps uppercase text-secondary mb-1">Guest Name</label>
-<input class="w-full bg-surface-container-high px-3 py-2 font-body-sm text-on-surface focus:outline-none focus:ring-1 focus:ring-primary border border-transparent focus:border-primary transition-colors" placeholder="Full Name" required="" type="text"/>
+<input class="w-full bg-surface-container-high px-3 py-2 font-body-sm text-on-surface focus:outline-none focus:ring-1 focus:ring-primary border border-transparent focus:border-primary transition-colors rounded-lg" placeholder="Full Name" required="" type="text"/>
 </div>
 <div class="grid grid-cols-2 gap-4">
 <div>
 <label class="block font-label-caps text-label-caps uppercase text-secondary mb-1">Date</label>
-<input class="w-full bg-surface-container-high px-3 py-2 font-body-sm text-on-surface focus:outline-none border border-transparent focus:border-primary transition-colors" type="date" value="2025-10-15"/>
+<input class="w-full bg-surface-container-high px-3 py-2 font-body-sm text-on-surface focus:outline-none border border-transparent focus:border-primary transition-colors rounded-lg" type="date" value="2025-10-15"/>
 </div>
 <div>
 <label class="block font-label-caps text-label-caps uppercase text-secondary mb-1">Time</label>
-<select class="w-full bg-surface-container-high px-3 py-2 font-body-sm text-on-surface focus:outline-none border border-transparent focus:border-primary transition-colors">
+<select class="w-full bg-surface-container-high px-3 py-2 font-body-sm text-on-surface focus:outline-none border border-transparent focus:border-primary transition-colors rounded-lg">
 <option>19:30 • Dinner</option>
 <option>20:30 • Dinner</option>
 <option>13:00 • Lunch</option>
@@ -430,7 +430,7 @@
             </label>
 </div>
 </div>
-<button class="w-full bg-primary-container hover:bg-primary active:scale-98 text-on-primary font-button-text text-button-text uppercase tracking-widest py-3.5 mt-4 transition-all duration-200 shadow-sm" type="submit">
+<button class="w-full bg-primary-container hover:bg-primary active:scale-98 text-on-primary font-button-text text-button-text uppercase tracking-widest py-3.5 mt-4 transition-all duration-200 shadow-sm rounded-xl" type="submit">
           Confirm Table Request
         </button>
 </form>
@@ -442,7 +442,7 @@
 <h3 class="font-headline-md text-headline-md text-on-surface">Table Reserved</h3>
 <p class="font-body-md text-secondary max-w-sm mx-auto">Your table request at The Verandah has been noted. Our Maître d' will confirm your seating arrangements shortly.</p>
 <div class="pt-2">
-<button class="bg-primary-container hover:bg-primary text-on-primary font-button-text text-button-text uppercase tracking-widest px-8 py-3 transition-colors" onclick="closeTableModal()" type="button">
+<button class="bg-primary-container hover:bg-primary text-on-primary font-button-text text-button-text uppercase tracking-widest px-8 py-3 transition-colors rounded-xl" onclick="closeTableModal()" type="button">
 Done
 </button>
 </div>
@@ -642,7 +642,7 @@ Done
 </section>
 </div>
 <!-- FLOATING QUICK RESERVE BAR (APPEARS ON SCROLL) -->
-<div class="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 bg-surface/95 backdrop-blur-xl border border-outline-variant/50 shadow-[0_12px_36px_rgba(85,59,46,0.18)] px-5 py-3 flex items-center justify-between gap-6 transition-all duration-500 ease-out transform translate-y-24 opacity-0 pointer-events-none max-w-[92vw] md:max-w-none" id="floating-reserve-bar">
+<div class="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 bg-surface/95 backdrop-blur-xl border border-outline-variant/50 shadow-[0_12px_36px_rgba(85,59,46,0.18)] px-5 py-3 flex items-center justify-between gap-6 transition-all duration-500 ease-out transform translate-y-24 opacity-0 pointer-events-none max-w-[92vw] md:max-w-none rounded-2xl" id="floating-reserve-bar">
 <div class="flex items-center gap-3">
 <div class="w-2 h-2 rounded-full bg-primary animate-pulse"></div>
 <div>
@@ -650,7 +650,7 @@ Done
 <span class="font-label-caps text-[10px] uppercase tracking-widest text-secondary block">Suites from ₹16,500 / night</span>
 </div>
 </div>
-<a class="inline-flex items-center gap-2 bg-primary-container hover:bg-primary text-on-primary font-button-text text-button-text uppercase tracking-widest px-4 py-2.5 transition-all shadow-sm active:scale-95 group" href="#booking-engine">
+<a class="inline-flex items-center gap-2 bg-primary-container hover:bg-primary text-on-primary font-button-text text-button-text uppercase tracking-widest px-4 py-2.5 transition-all shadow-sm active:scale-95 group rounded-xl" href="#booking-engine">
 <span>Check Availability</span>
 <span class="material-symbols-outlined text-[16px] transition-transform group-hover:translate-x-1">arrow_forward</span>
 </a>

@@ -193,12 +193,19 @@ Visual hierarchy is conveyed through **architectural stratification, tactile pla
 
 ## Shapes
 
-The design system adopts a **Sharp (`0`)** shape language.
+The design system adopts a **Sharp (`0`)** shape language as its default across cards, buttons, images, and dialogs.
 
 ### Geometry & Form Language
 - Architectural precision requires straight lines, sharp junctions, and right angles (`border-radius: 0px`). This honors the stone joinery, jali screen profiles, and geometric courtyard plans of Indian modernist architecture.
-- Cards, inputs, buttons, interactive sheets, and picture frames maintain crisp 90-degree corners.
+- Cards, inputs, most buttons, interactive sheets, and picture frames maintain crisp 90-degree corners.
 - Exceptions are applied strictly to circular functional counters (e.g., guest counters or directional carousel arrows), which remain pure geometric circles (`50%` radius) rather than pill capsules.
+
+### Component Exception — Architectural Booking Bar
+The **Booking Bar** (`#booking-engine`) is the single deliberate curve exception, following the **Soft Architectural Curve** (Option 1) treatment:
+- **Outer container shell:** `border-radius: 20px` — echoes the curved arches, bouclé barrel armchairs, and amber glass globes of the hotel architecture.
+- **Inner form grid:** `border-radius: 16px` with `overflow: hidden` so field backgrounds clip cleanly inside the shell without sharp overflows.
+- **Search / CTA button:** `border-radius` applied only to the right edge (`border-top-right-radius: 16px; border-bottom-right-radius: 16px`) — the button blends into the outer shell curvature gracefully while its left edge remains flush with the field dividers.
+- **Psychological rationale:** Softens the interface to evoke warmth without compromising the overall architectural discipline of the page.
 
 ## Components
 
